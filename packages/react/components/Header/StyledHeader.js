@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledHeader = styled.header`
+const StyledHeader = styled.header`
   background-color:rgba(0, 0, 0, .7);
   position: fixed;
   z-index: 10;
@@ -38,5 +38,6 @@ export const StyledHeader = styled.header`
   
   nav li:last-child {
     margin-right: 0;
-  }
-`;
+  }`;
+
+  export default StyledHeader;

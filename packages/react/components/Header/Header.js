@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledHeader } from './styledHeader';
+import  StyledHeader  from './StyledHeader';
 import PropTypes from 'prop-types'; 
 
 export const Header = (props) => (
