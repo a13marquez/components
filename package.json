@@ -6,7 +6,7 @@
     "lerna": "^3.14.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest -v && npx lerna run test"
   },
   "dependencies": {
     "@babel/preset-env": "^7.4.5",

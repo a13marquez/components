@@ -10,5 +10,7 @@ module.exports = {
     "<rootDir>/.bit",  
     "<rootDir>/dist",
   ],
-  
+  moduleNameMapper: {
+    '^styled-components': '<rootDir>/node_modules/styled-components',
+  }
 };
