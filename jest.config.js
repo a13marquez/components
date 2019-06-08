@@ -1,5 +1,10 @@
 module.exports = {
   rootDir: './',
-  roots: ['packages/'],
-  "testPathIgnorePatterns":["/node_modules/", ".bit/",  "dist/"]
+  roots: ['components/'],
+
+  testPathIgnorePatterns:[
+    "/node_modules/", 
+  ],
+  verbose: true,
+  bail: true
 }

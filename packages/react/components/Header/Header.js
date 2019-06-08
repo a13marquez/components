@@ -10,6 +10,6 @@ export const Header = (props) => (
 
 
 Header.propTypes = {
-  children: PropTypes.string
+  children: PropTypes.any
 }
 
