@@ -5,39 +5,14 @@ const StyledHeader = styled.header`
   position: fixed;
   z-index: 10;
   top: 0;
-  left: 0;
+  left: 0;4
   width:  100%;
+  height: ${props => props.height || '80px'};
   color: ${props => props.color || 'white' };
-  padding: 35px 100px 20px;
+  padding: ${props => props.padding || '35px 100px 20px'};
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  a {
-    text-decoration: none;
-    cursor: pointer;
-    color: ${props => props.color || 'white' };
-    opacity: .6;
-  }
-  a:hover {
-    opacity: 1;
-  }
-  nav ul {
-    list-style: none
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  nav li {
-    margin: 0 6px;
-  }
-  
-  nav li:first-child {
-    margin-left: 0;
-  }
-  
-  nav li:last-child {
-    margin-right: 0;
-  }`;
+  align-items: ${props => props.alignItems || 'left'};
+  `;
 
   export default StyledHeader;

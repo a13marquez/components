@@ -4,8 +4,11 @@ import PropTypes from 'prop-types';
 
 export const Header = (props) => (
   <StyledHeader
+    height={props.height}
+    padding={props.padding}
     backgroundColor={props.backgroundColor}
-    color={props.color}>
+    color={props.color}
+    alignItems={props.alignItems}>
     {props.children}
   </StyledHeader>
 );
