@@ -7,7 +7,8 @@ import avatar from './avatar.jpeg'
 storiesOf('Circular Reveal', module)
   .add('Empty', () => (
     <CircularReveal
-      content={'Oziiiii'}
+      easing={0.8}
+      content={'a13marquez'}
       src={avatar}
       alt={'Avatar'}
     ></CircularReveal>
