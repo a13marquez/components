@@ -8,7 +8,11 @@ import { CircularReveal } from './CircularReveal';
 
 describe('Circular Reveal tests', () => {
   it('Renders <CircularReveal />' , () => {
-    const wrapper = mount(<CircularReveal></CircularReveal>);
+    const wrapper = mount(
+      <CircularReveal 
+        src=''
+        alt=''/>
+    );
     expect(wrapper.find('img')).toHaveLength(1);
   });
 
