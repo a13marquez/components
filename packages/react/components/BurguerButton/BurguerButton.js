@@ -3,13 +3,13 @@ import StyledBurguerIcon, {StyledBar} from './StyledBurguerButton';
 
 export const BurguerButton = (props) => {
   const [isOpened, setIsOpened] = useState(false);
-  function click() {
-    props.onClick && props.onClick();
-    setIsOpened(!isOpened)
-  }
   return (
     <StyledBurguerIcon
-    onClick={click}
+    className={props.className}
+    onClick={() => {
+      props.onClick && props.onClick();
+      setIsOpened(!isOpened)
+    }}
     height={props.height}
     width={props.width}>
     <StyledBar 
