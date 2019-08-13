@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import PropTypes from 'prop-types';
 
-const StyledHeader = styled.header`
+export const StyledHeader = styled.header`
   background-color: ${props => props.backgroundColor || 'rgba(0, 0, 0, .7)'}; 
   position: fixed;
   z-index: 10;
@@ -15,4 +16,10 @@ const StyledHeader = styled.header`
   align-items: ${props => props.alignItems || 'left'};
   `;
 
-  export default StyledHeader;
+  StyledHeader.propTypes = {
+    backgroundColor: PropTypes.string,
+    height: PropTypes.string,
+    color: PropTypes.string,
+    padding: PropTypes.string,
+    alignItems: PropTypes.string,
+  }
