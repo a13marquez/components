@@ -6,7 +6,10 @@
     "lerna": "^3.14.1"
   },
   "scripts": {
-    "test": "jest -v && npx lerna run test",
+    "test": "npx lerna run test --stream",
+    "test:watch": "jest && npx lerna run test:watch",
+    "lint": "eslint -c .eslintrc.json src",
+    "lint:fix": "eslint -c .eslintrc.json src --fix",
     "storybook": "start-storybook"
   },
   "dependencies": {

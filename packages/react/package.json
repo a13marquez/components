@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "bit test",
+    "test": "jest --updateSnapshot --colors",
+    "test:watch": "jest --updateSnapshot --watch --colors",
     "storybook": "start-storybook"
   },
   "devDependencies": {
