@@ -6,6 +6,7 @@
     "lerna": "^3.14.1"
   },
   "scripts": {
+    "bootstrap": "npm ci && npx lerna run bootstrap",
     "test": "npx lerna run test --stream",
     "test:watch": "jest && npx lerna run test:watch",
     "lint": "eslint -c .eslintrc.json src",
