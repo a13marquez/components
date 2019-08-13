@@ -2,8 +2,8 @@ const jestBase = require('../../jest.config.js');
 
 module.exports = {
   ...jestBase,
-  setupFiles: [
-    '<rootDir>/setupTests.js'
+  setupFilesAfterEnv: [
+    '<rootDir>/enzymeConfig.js'
   ],
   testPathIgnorePatterns:[
     "/node_modules/", 
