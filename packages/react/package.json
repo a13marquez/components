@@ -4,7 +4,8 @@
   "scripts": {
     "test": "jest --updateSnapshot --colors",
     "test:watch": "jest --updateSnapshot --watch --colors",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "publish": "bit tag --all && bit export a13marquez.react-components"
   },
   "devDependencies": {
     "@storybook/react": "^5.1.3",

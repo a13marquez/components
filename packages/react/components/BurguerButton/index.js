@@ -1,3 +1,1 @@
-import { BurguerButton  } from './BurguerButton';
-
-export default BurguerButton;
+export * from  './BurguerButton';

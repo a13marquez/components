@@ -1,3 +1,1 @@
-import { CircularReveal } from './CircularReveal';
-
-export default CircularReveal;
+export * from './CircularReveal';

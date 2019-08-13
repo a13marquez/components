@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledCircularReveal from './StyledCircularReveal';
+import { StyledCircularReveal } from './StyledCircularReveal';
 import PropTypes from 'prop-types';
 
 export class CircularReveal extends React.Component {

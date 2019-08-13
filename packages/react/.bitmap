@@ -55,7 +55,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.react-components/header@1.0.6": {
+    "a13marquez.react-components/header@1.0.7": {
         "files": [
             {
                 "relativePath": "components/Header/Header.js",

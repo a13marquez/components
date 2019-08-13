@@ -8,14 +8,14 @@ import { BurguerButton } from './BurguerButton';
 
 
 describe('Header tests', () => {
-  it('Renders <BurguerButton/>' , () => {
+  test('Renders <BurguerButton/>' , () => {
     const wrapper = mount(<BurguerButton></BurguerButton>);
     expect(wrapper.find('.bar1')).toBeDefined();
     expect(wrapper.find('.bar2')).toBeDefined();
     expect(wrapper.find('.bar3')).toBeDefined();
   });
 
-  it('Changes  <BurguerButton/> width and height' , () => {
+  test('Changes  <BurguerButton/> width and height' , () => {
     const wrapper = mount(
       <BurguerButton 
         height='500px'
@@ -27,7 +27,7 @@ describe('Header tests', () => {
     
   });
 
-  it('Change bar styles color when passed props' , () => {
+  test('Change bar styles color when passed props' , () => {
     const wrapper = mount(
       <BurguerButton 
       barColor='white'

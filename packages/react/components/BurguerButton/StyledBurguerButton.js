@@ -1,8 +1,6 @@
-/// <reference path=""
-
 import styled from 'styled-components';
 
-export const StyledBar = styled.div`
+export const StyledBars = styled.div`
   width: ${props => props.width || '35px'};
   height:${ props => props.height || '5px'};
   background-color: ${props => props.backgroundColor || '#333'};
@@ -24,10 +22,8 @@ export const StyledBar = styled.div`
   }
 `;
 
-const StyledBurguerIcon = styled.div`
+export const StyledBurguerIcon = styled.div`
   cursor: pointer;
   height: ${props => props.height || '100px'};
   width: ${props => props.width || '40px'};
-`
-
-export default StyledBurguerIcon;
+`;

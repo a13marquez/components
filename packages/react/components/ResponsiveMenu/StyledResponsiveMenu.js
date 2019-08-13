@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const StyledResponsiveMenu = styled.nav`
+export const StyledResponsiveMenu = styled.nav`
   .burguer__icon {
     display:none; 
   }
@@ -100,18 +100,3 @@ const StyledResponsiveMenu = styled.nav`
 
   }`
 
-  // transform: translate3d(${props => {
-  //   switch (props.fadeIn) {
-  //     case 'left':
-  //       return '200%, 0 , 0'
-  //     case 'bottom':
-  //       return '0, -100%, 0'
-  //     case 'top':
-  //       return '0, 200%, 0'
-  //     case 'right':
-  //     default:
-  //       return '-100%, 0, 0'
-  //   }
-  // } })
-
-export default StyledResponsiveMenu;

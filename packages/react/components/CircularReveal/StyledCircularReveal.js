@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const defaultTransformTransition = 'transform 0.2s cubic-bezier(0, 0, 0.3, 1)';
 const defaultOpacityTransition = 'opacity 0.2s cubic-bezier(0, 0, 0.3, 1)'
 
-const StyledCircularReveal = styled.div`
+export const StyledCircularReveal = styled.div`
   width: ${props => props.width || '100px'};
   height: ${props => props.height || '100px'};
   border-radius: 50%;
@@ -37,7 +37,5 @@ const StyledCircularReveal = styled.div`
   
   img {
     width:100%;
-  }`
+  }`;
   
-
-export default StyledCircularReveal;

@@ -1,3 +1,2 @@
-import { RoundImage } from './RoundImage';
+export * from './RoundImage';
 
-export default RoundImage;

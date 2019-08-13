@@ -1,9 +1,9 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
-import 'jest-styled-components'
+import 'jest-styled-components';
 
 import { ResponsiveMenu } from './ResponsiveMenu';
-import  BurguerButton  from '../BurguerButton'
+import { BurguerButton }  from '../BurguerButton';
 
 describe('Responsive Menu tests', () => {
   it('Renders Responsive Menu' , () => {

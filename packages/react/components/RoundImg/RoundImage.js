@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledRoundImage from './StyledRoundImg';
+import { StyledRoundImage } from './StyledRoundImg';
 
 export const RoundImage = (props) => (
   <StyledRoundImage

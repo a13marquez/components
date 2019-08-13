@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import StyledBurguerIcon, {StyledBar} from './StyledBurguerButton';
+import { StyledBurguerIcon, StyledBars } from './StyledBurguerButton';
 
 export const BurguerButton = (props) => {
   const [isOpened, setIsOpened] = useState(false);
@@ -12,19 +12,19 @@ export const BurguerButton = (props) => {
     }}
     height={props.height}
     width={props.width}>
-    <StyledBar 
+    <StyledBars 
       className={`bar1 ${isOpened ? 'change' : ''}`} 
       width={props.barWidth}
       height={props.barHeight}
       backgroundColor={props.barColor}
       transition={props.barTransition}/>
-    <StyledBar 
+    <StyledBars 
       className={`bar2 ${isOpened ? 'change' : ''}`} 
       width={props.barWidth}
       height={props.barHeight}
       backgroundColor={props.barColor}
       transition={props.barTransition}/>
-    <StyledBar 
+    <StyledBars 
       className={`bar3 ${isOpened ? 'change' : ''}`} 
       width={props.barWidth}
       height={props.barHeight}
