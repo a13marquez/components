@@ -39,7 +39,7 @@
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react@1.0.2"
+      "compiler": "bit.envs/compilers/react-typescript@3.0.6"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
