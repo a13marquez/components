@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyledCircularReveal } from './StyledCircularReveal';
+import { StyledCircularReveal } from '../styled/Images/StyledCircularReveal';
 
 interface CircularRevealProps {
   readonly easing?: number
