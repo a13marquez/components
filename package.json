@@ -11,13 +11,14 @@
     "test:watch": "jest && npx lerna run test:watch",
     "lint": "eslint -c .eslintrc.json src",
     "lint:fix": "eslint -c .eslintrc.json src --fix",
-    "storybook": "start-storybook",
     "publish": "npx lerna run publish"
   },
   "dependencies": {
     "@babel/preset-env": "^7.4.5",
+    "@bit/a13marquez.react-components.header": "^1.0.7",
     "@storybook/addon-viewport": "^5.1.8",
     "@types/jest": "^24.0.13",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "typescript": "^3.5.3"
   }
 }
