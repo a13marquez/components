@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders Styled Product Section 1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Standard Section 1`] = `ReactWrapper {}`;

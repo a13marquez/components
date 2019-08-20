@@ -5,6 +5,10 @@ module.exports = {
   setupFilesAfterEnv: [
     '<rootDir>/enzymeConfig.js'
   ],
+  transform: {
+    '^.+\\.ts[x]?$': 'ts-jest',
+    '^.+\\.js[x]?$': 'babel-jest'
+  },
   testPathIgnorePatterns:[
     "/node_modules/", 
     "<rootDir>/.bit",  

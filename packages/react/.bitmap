@@ -28,7 +28,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.react-components/circular-reveal@0.0.4": {
+    "a13marquez.react-components/circular-reveal@0.0.5": {
         "files": [
             {
                 "relativePath": "components/CircularReveal/CircularReveal.js",

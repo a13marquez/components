@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders Styled Checkout Button  1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Count Button  1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Standard Button  1`] = `ReactWrapper {}`;

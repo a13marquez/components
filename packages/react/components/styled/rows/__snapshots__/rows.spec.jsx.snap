@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders Styled Product Title Row 1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Standard Row 1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Summary Row 1`] = `ReactWrapper {}`;

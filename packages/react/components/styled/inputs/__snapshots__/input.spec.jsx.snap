@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders Styled Quantity Input 1`] = `ReactWrapper {}`;
+
+exports[`It renders Styled Standard Input 1`] = `ReactWrapper {}`;
