@@ -1,9 +1,9 @@
 import { css } from 'styled-components';
 
-export const WrapperStyles = css`
+export const BigVerticalPaddingStyles = css`
   padding: 32px 0;
 `
 
-export const WrapperHalfStyles = css`
+export const MidVerticalPaddingStyles = css`
    padding: 24px 0;
 `
