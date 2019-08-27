@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { StyledProductsSection } from '../styled/sections/StyledProductsSection';
+import { StyledSectionWithPadding } from '../styled/sections';
 
 export const Section: React.FunctionComponent =  (props) => (
-  <StyledProductsSection>
+  <StyledSectionWithPadding>
     {props.children}
-  </StyledProductsSection>
+  </StyledSectionWithPadding>
 )

@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardMain } from './StyledStandardMain';
-import { StyledMain } from './StyledAppMain';
+import { StyledMain } from './StyledMain';
 
 test('It renders Styled Standard Main', () => {
   const StandardMain = mount(<StyledStandardMain />);

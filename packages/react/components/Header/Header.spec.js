@@ -29,10 +29,10 @@ describe('Header tests', () => {
     expect(wrapper).toHaveStyleRule( 'width', '100%');
     expect(wrapper).toHaveStyleRule( 'height', '80px');
     expect(wrapper).toHaveStyleRule( 'color', 'white');
-    expect(wrapper).toHaveStyleRule( 'padding', '35px 100px 20px');
+    expect(wrapper).toHaveStyleRule( 'padding', '1em 3em');
     expect(wrapper).toHaveStyleRule( 'display', 'flex');
     expect(wrapper).toHaveStyleRule( 'justify-content', 'space-around');
-    expect(wrapper).toHaveStyleRule( 'align-items', 'left');
+    expect(wrapper).toHaveStyleRule( 'align-items', 'flex-end');
   })
 
   test('Change background color when passed props' , () => {

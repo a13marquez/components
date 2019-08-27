@@ -10,7 +10,7 @@
       "type": "node",
       "name": "vscode-jest-tests",
       "request": "launch",
-      "runtimeExecutable": "/Users/a13marquez/.nvm/versions/node/v12.3.1/bin/node",
+      "runtimeExecutable": "/usr/bin/node",
       "program": "${workspaceFolder}/node_modules/jest/bin/jest",
       "args": [
         "--runInBand"
@@ -24,7 +24,6 @@
       "request": "launch",
       "name": "Jest Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
-      "runtimeExecutable": "/Users/a13marquez/.nvm/versions/node/v12.3.1/bin/node",
       "args": [
         "${fileBasenameNoExtension}",
         "--runInBand"

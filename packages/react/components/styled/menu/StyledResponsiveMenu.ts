@@ -11,18 +11,23 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
     display:none; 
   }
   ul {
-    list-style: none
+    list-style: none;
     font-size: ${props => props.fontSize || '14px'};
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-right: 2rem;
   }
   li {
-    margin: 0 6px;
+    margin: 0 1rem;
     text-decoration: none;
-    color: ${props => props.color || 'white' };
     opacity: .6;
-    font-size: 2em;
+    padding: 1rem 2rem;
+  }
+  li a {
+    color: ${props => props.color || 'white' };
+    font-size: 2.2rem;
+    font-weight: 600;
   }
 
   li:first-of-type {
@@ -34,19 +39,19 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
   li:hover {
     opacity: 1;
   }
-  @media (min-width: 500px) {
-      background-color: ${
-    props => props.backgroundColor || 'rgb(0, 0, 0, .7)'}; 
+  @media (min-width:  28.75em) {
+    background-color: ${
+      props => props.backgroundColor || 'rgb(0, 0, 0, .7)'}; 
   }
-  @media (max-width: 500px) {
-    height: 100vh;
+  @media (max-width:  28.75em) {
+    height: 100%;
     z-index:0;
     .burguer__icon {
       display:inline;
       z-index: 10;
     }
     .rm__list{
-      height:100%
+      height:100vh;
       display: inline-block;
       MozTransform: translate3d(-100%, 0, 0);
       MsTransform: translate3d(-100%, 0, 0);
@@ -63,26 +68,25 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
         visibility:visible;
         opacity:1;
         filter:alpha(opacity=100);
-        height: 100%;
-        width: 100%;
+        width: 115%;
         list-style:none;
         margin:0;
         padding:0;
         overflow: auto;
         transition: all 0.5s;
         z-index: 10; 
-        MozTransform: translate3d(0, 0, 0);
-        MsTransform: translate3d(, 0, 0);
-        OTransform: translate3d(0, 0, 0);
-        WebkitTransform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);  
+        MozTransform: translate3d(-10%, 0, 0);
+        MsTransform: translate3d(-10%, 0, 0);
+        OTransform: translate3d(-10%, 0, 0);
+        WebkitTransform: translate3d(-10%, 0, 0);
+        transform: translate3d(-10%, 0, 0);  
       }
     }
     ul {
-      height: 100vw;
+      height: 100vh;
       display: flex
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: space-evenly;
       align-items: center;
     }
     li {

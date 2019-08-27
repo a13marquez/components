@@ -10,7 +10,7 @@ interface BurguerButtonProps {
   barHeight?: string;
   barColor?: string;
   barTransition?: string;
-  
+  opacity?: string;
 }
 
 export const BurguerButton: React.FunctionComponent<BurguerButtonProps> 

@@ -8,5 +8,6 @@ interface StyledRoundImageProps {
 export const StyledRoundImage = styled.img<StyledRoundImageProps>`
   border-radius:50%;
   height: ${props => props.height || '50px'};
+  width: ${props => props.height || '50px'};
   background-color: ${props => props.backgroundColor || '#000'};
 `;

@@ -5,6 +5,7 @@ interface RoundImageProps {
   readonly src?: string;
   readonly backgroundColor?: string;
   readonly height?: string;
+  readonly alt: string;
 }
 
 export const RoundImage:React.FunctionComponent<RoundImageProps> = 
@@ -12,7 +13,8 @@ export const RoundImage:React.FunctionComponent<RoundImageProps> =
   <StyledRoundImage
     src={props.src}
     backgroundColor={props.backgroundColor}
-    height={props.height}>
+    height={props.height}
+    alt={props.alt}>
     {props.children}
   </StyledRoundImage>
 )
