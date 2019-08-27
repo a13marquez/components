@@ -23,6 +23,6 @@
     "emitDecoratorMetadata": true,
     "types": ["react", "jest"]
   },
-  "include": ["components/**/*"],
+  "include": ["components/**/*", "styled"],
   "exclude": ["node_modules", "build", "scripts"]
 }

@@ -11,8 +11,8 @@ module.exports = {
   },
   testPathIgnorePatterns:[
     "/node_modules/", 
-    "<rootDir>/.bit",  
-    "<rootDir>/dist",
+    "<rootDir>/src/*/.bit",  
+    "<rootDir>/src/*/dist",
   ],
   collectCoverage: true,
   moduleNameMapper: {

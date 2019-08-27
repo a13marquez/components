@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyledResponsiveMenu } from '../styled/menu/StyledResponsiveMenu';
+import { StyledResponsiveMenu } from '../../styled/menu/StyledResponsiveMenu';
 import { BurguerButton } from '../BurguerButton';
 
 interface MenuItem {

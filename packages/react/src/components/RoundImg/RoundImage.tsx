@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyledRoundImage } from '../styled/Images/StyledRoundImg';
+import { StyledRoundImage } from '../../styled/Images/StyledRoundImg';
 
 interface RoundImageProps {
   readonly src?: string;

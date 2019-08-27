@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { StyledMain } from '../styled/mains/StyledMain';
+import { StyledCenteredMain } from '../../styled/mains';
 
 export const Main: React.FunctionComponent = (props) => (
-  <StyledMain>
+  <StyledCenteredMain>
     {props.children}
-  </StyledMain>
+  </StyledCenteredMain>
 )

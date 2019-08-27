@@ -1,6 +1,6 @@
 module.exports = {
   rootDir: './',
-  roots: ['components/'],
+  roots: ['src/'],
 
   testPathIgnorePatterns:[
     "/node_modules/", 

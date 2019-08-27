@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardMain } from './StyledStandardMain';
-import { StyledMain } from './StyledMain';
+import { StyledCenteredMain } from './StyledCenteredMain';
 
 test('It renders Styled Standard Main', () => {
   const StandardMain = mount(<StyledStandardMain />);
@@ -11,7 +11,7 @@ test('It renders Styled Standard Main', () => {
 });
 
 test('It renders Styled Main App', () => {
-  const MainApp = mount(<StyledMain />);
+  const MainApp = mount(<StyledCenteredMain />);
   expect(MainApp).toMatchSnapshot();
 });
 
@@ -25,7 +25,7 @@ test('Styled Standard Row have the correct styles', () => {
 });
 
 test('Styled Product Title Row have the correct styles', () => {
-  const MainApp = mount(<StyledMain />);
+  const MainApp = mount(<StyledCenteredMain />);
   expect(MainApp).toHaveStyleRule('margin', '0');
   expect(MainApp).toHaveStyleRule('padding', '0');
   expect(MainApp).toHaveStyleRule('border', '0');
@@ -43,6 +43,5 @@ test('Styled Product Title Row have the correct styles', () => {
   expect(MainApp).toHaveStyleRule('width', 'calc(100% - 64px)');
   expect(MainApp).toHaveStyleRule('height', 'calc(100% - 64px)');
   expect(MainApp).toHaveStyleRule('border-radius', '4px');
-  expect(MainApp).toHaveStyleRule('background-color', '#ffffff');
-  expect(MainApp).toHaveStyleRule('transform', 'translate(-50%,-50%)');
+  expect(MainApp).toHaveStyleRule('background-color', '#fff');
 });

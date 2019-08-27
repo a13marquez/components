@@ -1,19 +1,11 @@
 import styled from 'styled-components';
+import { StandardHProps } from './interfaces';
 import { StandardStyles } from '../shared-styles';
 
-
-
-export const StyledStandardBigHeader = styled.h1`
+export const StyledStandardH2 = styled.h2<StandardHProps>`
   ${StandardStyles}
-  position: relative;
-  letter-spacing: -0.18px;
-  font-size: 18px;
-  line-height: 24px;
-`
-
-export const StyledStandardMediumHeader = styled.h2`
-  ${StandardStyles}
-  color: #717285;
+  color: ${props => props.color || '#717285'};
+  background-color: ${props => props.backgroundColor || '#fff'};
   letter-spacing: 0;
   font-weight: 300;
   text-transform: uppercase;
