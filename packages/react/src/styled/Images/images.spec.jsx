@@ -3,8 +3,8 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardImageWrapper } from './StyledStandardImageWrapper';
-import { StyledProductImageWrapper } from './StyledProductImageWrapper';
-import { StyledImage } from './StyledImg';
+import { StyledCenteredImageWrapper } from './StyledCenteredImageWrapper';
+import { StyleBorderedImage } from './StyledBorderedImg';
 
 test('It renders Styled Standard Image Wrapper', () => {
   const StandardImageWrapper = mount(<StyledStandardImageWrapper />);
@@ -12,12 +12,12 @@ test('It renders Styled Standard Image Wrapper', () => {
 });
 
 test('It renders Styled Product Image Wrapper', () => {
-  const ProductImageWrapper = mount(<StyledProductImageWrapper />);
+  const ProductImageWrapper = mount(<StyledCenteredImageWrapper />);
   expect(ProductImageWrapper).toMatchSnapshot();
 });
 
 test('It renders Styled  Image', () => {
-  const Image = mount(<StyledImage />);
+  const Image = mount(<StyleBorderedImage />);
   expect(Image).toMatchSnapshot();
 });
 
@@ -32,14 +32,14 @@ test('Styled Standard Image have the correct styles', () => {
 });
 
 test('Styled Product Image have the correct styles', () => {
-  const ProductImageWrapper = mount(<StyledProductImageWrapper />);
+  const ProductImageWrapper = mount(<StyledCenteredImageWrapper />);
   expect(ProductImageWrapper).toHaveStyleRule('display', 'flex');
   expect(ProductImageWrapper).toHaveStyleRule('align-items', 'center');
   expect(ProductImageWrapper).toHaveStyleRule('flex-flow', 'row nowrap');
 });
 
 test('Styled Image have the correct styles', () => {
-  const Image = mount(<StyledImage />);
+  const Image = mount(<StyleBorderedImage />);
   expect(Image).toHaveStyleRule('margin-right', '16px');
   expect(Image).toHaveStyleRule('width', '72px');
   expect(Image).toHaveStyleRule('height', '72px');

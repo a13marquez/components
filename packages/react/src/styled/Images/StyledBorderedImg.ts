@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledImage = styled.img`
+export const StyleBorderedImage = styled.img`
   margin-right: 16px;
   width: 72px;
   height: 72px;

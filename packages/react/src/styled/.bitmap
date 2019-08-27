@@ -52,6 +52,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-aside@0.0.1": {
+        "files": [
+            {
+                "relativePath": "asides/StyledStandardAside.ts",
+                "test": false,
+                "name": "StyledStandardAside.ts"
+            }
+        ],
+        "mainFile": "asides/StyledStandardAside.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-bordered-header@0.0.1": {
         "files": [
             {
@@ -61,6 +73,54 @@
             }
         ],
         "mainFile": "headers/StyledBorderedHeader.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-centered-image-wrapper@0.0.1": {
+        "files": [
+            {
+                "relativePath": "Images/StyledCenteredImageWrapper.ts",
+                "test": false,
+                "name": "StyledCenteredImageWrapper.ts"
+            }
+        ],
+        "mainFile": "Images/StyledCenteredImageWrapper.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-circular-reveal@0.0.1": {
+        "files": [
+            {
+                "relativePath": "Images/StyledCircularReveal.ts",
+                "test": false,
+                "name": "StyledCircularReveal.ts"
+            }
+        ],
+        "mainFile": "Images/StyledCircularReveal.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-column-aside@0.0.1": {
+        "files": [
+            {
+                "relativePath": "asides/StyledColumnAside.ts",
+                "test": false,
+                "name": "StyledColumnAside.ts"
+            }
+        ],
+        "mainFile": "asides/StyledColumnAside.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-column@0.0.1": {
+        "files": [
+            {
+                "relativePath": "columns/StyledStandardColumn.ts",
+                "test": false,
+                "name": "StyledStandardColumn.ts"
+            }
+        ],
+        "mainFile": "columns/StyledStandardColumn.ts",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -88,6 +148,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-round-img@0.0.1": {
+        "files": [
+            {
+                "relativePath": "Images/StyledRoundImg.ts",
+                "test": false,
+                "name": "StyledRoundImg.ts"
+            }
+        ],
+        "mainFile": "Images/StyledRoundImg.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-standard-h1@0.0.1": {
         "files": [
             {
@@ -97,6 +169,18 @@
             }
         ],
         "mainFile": "headers/StyledStandardH1.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-standard-image-wrapper@0.0.1": {
+        "files": [
+            {
+                "relativePath": "Images/StyledStandardImageWrapper.ts",
+                "test": false,
+                "name": "StyledStandardImageWrapper.ts"
+            }
+        ],
+        "mainFile": "Images/StyledStandardImageWrapper.ts",
         "origin": "AUTHORED",
         "exported": true
     },

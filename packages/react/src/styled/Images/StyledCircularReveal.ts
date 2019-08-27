@@ -44,8 +44,6 @@ export const StyledCircularReveal = styled.div<StyledCircularRevealProps>`
     transform: rotate(0deg);
     opacity: 1;
   }
-}
-  
   img {
     width:100%;
   }`;

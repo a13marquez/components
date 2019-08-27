@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardAside } from './StyledStandardAside';
-import { StyledSummaryAside } from './StyledSummaryAside';
+import { StyledColumnAside } from './StyledColumnAside';
 
 
 test('It renders Styled Standard Aside', () => {
@@ -12,7 +12,7 @@ test('It renders Styled Standard Aside', () => {
 });
 
 test('It renders Styled Summary Aside', () => {
-  const SummaryAside = mount(<StyledSummaryAside />);
+  const SummaryAside = mount(<StyledColumnAside />);
   expect(SummaryAside).toMatchSnapshot();
 });
 
@@ -28,7 +28,7 @@ test('Styled Standard Aside have the correct styles', () => {
 
 
 test('Styled Summary Aside have the correct styles', () => {
-  const SummaryAside = mount(<StyledSummaryAside />);
+  const SummaryAside = mount(<StyledColumnAside />);
   expect(SummaryAside).toHaveStyleRule('margin', '0');
   expect(SummaryAside).toHaveStyleRule('border', '0');
   expect(SummaryAside).toHaveStyleRule('vertical-align', 'baseline');
