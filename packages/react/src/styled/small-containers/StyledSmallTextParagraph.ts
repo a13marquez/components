@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { StyledStandardParagraph } from './StyledStandardParagraph';
 
-export const StyledProductCodeParagraph = styled(StyledStandardParagraph)`
+export const StyledSmallTextParagraph = styled(StyledStandardParagraph)`
   font-size: 12px;
   line-height: 16px;
   border-radius: 4px;

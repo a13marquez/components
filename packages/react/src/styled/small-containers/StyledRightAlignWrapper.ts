@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { StandardStyles } from '../shared-styles';
 
 
-export const StyledSummaryTotalWrapper = styled.div`
+export const StyledRightAlignWrapper = styled.div`
   ${StandardStyles}
   align-self: flex-end;
   margin-top: auto;

@@ -88,6 +88,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-bold-span@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledBoldSpan.ts",
+                "test": false,
+                "name": "StyledBoldSpan.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledBoldSpan.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-bordered-header@0.0.2": {
         "files": [
             {
@@ -208,6 +220,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-half-border-wrapper@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledHalfBorderWrapper.ts",
+                "test": false,
+                "name": "StyledHalfBorderWrapper.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledHalfBorderWrapper.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-header@0.0.1": {
         "files": [
             {
@@ -244,7 +268,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.styled-components/styled-padded-button@0.0.1": {
+    "a13marquez.styled-components/styled-padded-button@0.0.2": {
         "files": [
             {
                 "relativePath": "buttons/StyledPaddedButton.ts",
@@ -256,7 +280,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.styled-components/styled-padded-list@0.0.1": {
+    "a13marquez.styled-components/styled-padded-list@0.0.2": {
         "files": [
             {
                 "relativePath": "lists/StyledPaddedList.ts",
@@ -292,6 +316,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-right-align-wrapper@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledRightAlignWrapper.ts",
+                "test": false,
+                "name": "StyledRightAlignWrapper.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledRightAlignWrapper.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-round-img@0.0.1": {
         "files": [
             {
@@ -304,7 +340,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.styled-components/styled-row@0.0.1": {
+    "a13marquez.styled-components/styled-row@0.0.2": {
         "files": [
             {
                 "relativePath": "rows/StyledRow.ts",
@@ -313,6 +349,18 @@
             }
         ],
         "mainFile": "rows/StyledRow.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-small-text-paragraph@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledSmallTextParagraph.ts",
+                "test": false,
+                "name": "StyledSmallTextParagraph.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledSmallTextParagraph.ts",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -376,6 +424,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "a13marquez.styled-components/styled-standard-paragraph@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledStandardParagraph.ts",
+                "test": false,
+                "name": "StyledStandardParagraph.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledStandardParagraph.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "a13marquez.styled-components/styled-standard-row@0.0.1": {
         "files": [
             {
@@ -400,7 +460,19 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "a13marquez.styled-components/styled-title-row@0.0.1": {
+    "a13marquez.styled-components/styled-standard-span@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledStandardSpan.ts",
+                "test": false,
+                "name": "StyledStandardSpan.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledStandardSpan.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-title-row@0.0.2": {
         "files": [
             {
                 "relativePath": "rows/StyledTitleRow.ts",
@@ -409,6 +481,18 @@
             }
         ],
         "mainFile": "rows/StyledTitleRow.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "a13marquez.styled-components/styled-uppercase-span@0.0.1": {
+        "files": [
+            {
+                "relativePath": "small-containers/StyledUppercaseSpan.ts",
+                "test": false,
+                "name": "StyledUppercaseSpan.ts"
+            }
+        ],
+        "mainFile": "small-containers/StyledUppercaseSpan.ts",
         "origin": "AUTHORED",
         "exported": true
     },
