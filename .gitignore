@@ -63,7 +63,7 @@ typings/
 .next
 
 #packages dist
-packages/*/dist/
+packages/**/**/dist/
 
 #bit folder
 .bit/
