@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { StyledStandardRow } from './StyledStandardRow';
 
 
-export const StyledProductListTitleRow = styled(StyledStandardRow)`
+export const StyledTitleRow = styled(StyledStandardRow)`
   width: 100%;
   color: #a6a7b3;
   text-transform: uppercase;

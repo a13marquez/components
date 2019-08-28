@@ -3,8 +3,8 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardRow } from './StyledStandardRow';
-import { StyledProductListTitleRow } from './StyledProductListTitleRow';
-import { StyledSummaryRow } from './StyledSummaryRow';
+import { StyledTitleRow } from './StyledTitleRow';
+import { StyledRow } from './StyledRow';
 
 
 test('It renders Styled Standard Row', () => {
@@ -13,12 +13,12 @@ test('It renders Styled Standard Row', () => {
 });
 
 test('It renders Styled Product Title Row', () => {
-  const ProductListTitleRow = mount(<StyledProductListTitleRow />);
+  const ProductListTitleRow = mount(<StyledTitleRow />);
   expect(ProductListTitleRow).toMatchSnapshot();
 });
 
 test('It renders Styled Summary Row', () => {
-  const SummaryRow = mount(<StyledSummaryRow />);
+  const SummaryRow = mount(<StyledRow />);
   expect(SummaryRow).toMatchSnapshot();
 });
 
@@ -32,7 +32,7 @@ test('Styled Standard Row have the correct styles', () => {
 });
 
 test('Styled Product Title Row have the correct styles', () => {
-  const ProductListTitleRow = mount(<StyledProductListTitleRow />);
+  const ProductListTitleRow = mount(<StyledTitleRow />);
   expect(ProductListTitleRow).toHaveStyleRule('position', 'relative');
   expect(ProductListTitleRow).toHaveStyleRule('display', 'flex');
   expect(ProductListTitleRow).toHaveStyleRule('flex-flow', 'row nowrap');
@@ -46,7 +46,7 @@ test('Styled Product Title Row have the correct styles', () => {
 });
 
 test('Styled Summary Row have the correct styles', () => {
-  const SummaryRow = mount(<StyledSummaryRow />);
+  const SummaryRow = mount(<StyledRow />);
   expect(SummaryRow).toHaveStyleRule('margin', '0');
   expect(SummaryRow).toHaveStyleRule('padding', '0');
   expect(SummaryRow).toHaveStyleRule('border', '0');

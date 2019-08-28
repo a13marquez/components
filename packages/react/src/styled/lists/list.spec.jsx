@@ -3,8 +3,8 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardList } from './StyledStandardList';
-import { StyledProductList } from './StyledProductList';
-import { StyledSummaryItemsList } from './StyledSummaryItems';
+import { StyledList } from './StyledList';
+import { StyledPaddedList } from './StyledPaddedList';
 
 
 test('It renders Styled Standard List', () => {
@@ -13,13 +13,13 @@ test('It renders Styled Standard List', () => {
 });
 
 test('It renders Styled Products List', () => {
-  const ProductList = mount(<StyledProductList />);
-  expect(ProductList).toMatchSnapshot();
+  const List = mount(<StyledList />);
+  expect(List).toMatchSnapshot();
 });
 
 test('It renders Styled Products List', () => {
-  const SummaryItemsList = mount(<StyledSummaryItemsList />);
-  expect(SummaryItemsList).toMatchSnapshot();
+  const PaddedList = mount(<StyledPaddedList />);
+  expect(PaddedList).toMatchSnapshot();
 });
 
 test('Styled Standard List have the correct styles', () => {
@@ -33,49 +33,49 @@ test('Styled Standard List have the correct styles', () => {
 });
 
 test('Styled Product List have the correct styles', () => {
-  const ProductList = mount(<StyledProductList />);
-  expect(ProductList).toHaveStyleRule('margin', '0');
-  expect(ProductList).toHaveStyleRule('padding', '0');
-  expect(ProductList).toHaveStyleRule('border', '0');
-  expect(ProductList).toHaveStyleRule('vertical-align', 'baseline');
-  expect(ProductList).toHaveStyleRule('font', '100%');
-  expect(ProductList).toHaveStyleRule('list-style', 'none');
-  expect(ProductList).toHaveStyleRule('position', 'relative');
-  expect(ProductList).toHaveStyleRule('width', '100%');
-  expect(ProductList).toHaveStyleRule('padding-left', '0');
+  const List = mount(<StyledList />);
+  expect(List).toHaveStyleRule('margin', '0');
+  expect(List).toHaveStyleRule('padding', '0');
+  expect(List).toHaveStyleRule('border', '0');
+  expect(List).toHaveStyleRule('vertical-align', 'baseline');
+  expect(List).toHaveStyleRule('font', '100%');
+  expect(List).toHaveStyleRule('list-style', 'none');
+  expect(List).toHaveStyleRule('position', 'relative');
+  expect(List).toHaveStyleRule('width', '100%');
+  expect(List).toHaveStyleRule('padding-left', '0');
 });
 
 test('Styled Summary Items List have the correct styles', () => {
-  const SummaryItemsList = mount(<StyledSummaryItemsList />);
-  expect(SummaryItemsList).toHaveStyleRule('margin', '0');
-  expect(SummaryItemsList).toHaveStyleRule('border', '0');
-  expect(SummaryItemsList).toHaveStyleRule('vertical-align', 'baseline');
-  expect(SummaryItemsList).toHaveStyleRule('font', '100%');
-  expect(SummaryItemsList).toHaveStyleRule('list-style', 'none');
-  expect(SummaryItemsList).toHaveStyleRule('padding', '32px 0');
-  expect(SummaryItemsList).toHaveStyleRule('border-bottom', '1px solid rgba(33,34,64,0.16)');
+  const PaddedList = mount(<StyledPaddedList />);
+  expect(PaddedList).toHaveStyleRule('margin', '0');
+  expect(PaddedList).toHaveStyleRule('border', '0');
+  expect(PaddedList).toHaveStyleRule('vertical-align', 'baseline');
+  expect(PaddedList).toHaveStyleRule('font', '100%');
+  expect(PaddedList).toHaveStyleRule('list-style', 'none');
+  expect(PaddedList).toHaveStyleRule('padding', '32px 0');
+  expect(PaddedList).toHaveStyleRule('border-bottom', '1px solid rgba(33,34,64,0.16)');
 });
 
 test('Styled Product List have the correct styles', () => {
-  const ProductList = mount(<StyledProductList />);
-  expect(ProductList).toHaveStyleRule('margin', '0');
-  expect(ProductList).toHaveStyleRule('padding', '0');
-  expect(ProductList).toHaveStyleRule('border', '0');
-  expect(ProductList).toHaveStyleRule('vertical-align', 'baseline');
-  expect(ProductList).toHaveStyleRule('font', '100%');
-  expect(ProductList).toHaveStyleRule('list-style', 'none');
-  expect(ProductList).toHaveStyleRule('position', 'relative');
-  expect(ProductList).toHaveStyleRule('width', '100%');
+  const List = mount(<StyledList />);
+  expect(List).toHaveStyleRule('margin', '0');
+  expect(List).toHaveStyleRule('padding', '0');
+  expect(List).toHaveStyleRule('border', '0');
+  expect(List).toHaveStyleRule('vertical-align', 'baseline');
+  expect(List).toHaveStyleRule('font', '100%');
+  expect(List).toHaveStyleRule('list-style', 'none');
+  expect(List).toHaveStyleRule('position', 'relative');
+  expect(List).toHaveStyleRule('width', '100%');
 });
 
 test('Styled Product List with props have the correct styles', () => {
-  const ProductList = mount(<StyledProductList tableHead="true" />);
-  expect(ProductList).toHaveStyleRule('margin', '0');
-  expect(ProductList).toHaveStyleRule('border', '0');
-  expect(ProductList).toHaveStyleRule('vertical-align', 'baseline');
-  expect(ProductList).toHaveStyleRule('font', '100%');
-  expect(ProductList).toHaveStyleRule('list-style', 'none');
-  expect(ProductList).toHaveStyleRule('position', 'relative');
-  expect(ProductList).toHaveStyleRule('width', '100%');
-  expect(ProductList).toHaveStyleRule('padding-left', '0');
+  const List = mount(<StyledList tableHead="true" />);
+  expect(List).toHaveStyleRule('margin', '0');
+  expect(List).toHaveStyleRule('border', '0');
+  expect(List).toHaveStyleRule('vertical-align', 'baseline');
+  expect(List).toHaveStyleRule('font', '100%');
+  expect(List).toHaveStyleRule('list-style', 'none');
+  expect(List).toHaveStyleRule('position', 'relative');
+  expect(List).toHaveStyleRule('width', '100%');
+  expect(List).toHaveStyleRule('padding-left', '0');
 });

@@ -1,5 +1,5 @@
 import  *  as React from 'react';
-import { StyledBurguerIcon, StyledBar } from '../../styled/rest';
+import { StyledBurguerIcon, StyledBar } from '../../styled/icons';
 
 interface BurguerButtonProps {
   height?: string;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { StyledStandardButton } from './StyledStandardButton';
 
-export const StyledCheckoutButton = styled(StyledStandardButton)`
+export const StyledPaddedButton = styled(StyledStandardButton)`
   margin-top: 24px;
   padding-top: 16px;
   padding-bottom: 16px;

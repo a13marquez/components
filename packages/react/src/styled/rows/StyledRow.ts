@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { StandardStyles } from '../shared-styles';
 
-export const StyledSummaryRow = styled.li`
+export const StyledRow = styled.li`
   ${StandardStyles}
   font-size: 14px;
   line-height: 17px;

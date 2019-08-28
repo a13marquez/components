@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { StyledStandardButton } from './StyledStandardButton';
 
-export const StyledCountButton = styled(StyledStandardButton)`
+export const StyledButton = styled(StyledStandardButton)`
   padding: 0 8px;
   height: 40px;
   border: none;

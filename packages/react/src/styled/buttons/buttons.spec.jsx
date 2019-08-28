@@ -3,8 +3,8 @@ import { mount } from 'enzyme';
 import 'jest-styled-components';
 
 import { StyledStandardButton } from './StyledStandardButton';
-import { StyledCountButton } from './StyledCountButton';
-import { StyledCheckoutButton } from './StyledCheckoutButton';
+import { StyledButton } from './StyledButton';
+import { StyledPaddedButton } from './StyledPaddedButton';
 
 
 test('It renders Styled Standard Button ', () => {
@@ -13,12 +13,12 @@ test('It renders Styled Standard Button ', () => {
 });
 
 test('It renders Styled Count Button ', () => {
-  const CountButton = mount(<StyledCountButton />);
+  const CountButton = mount(<StyledButton />);
   expect(CountButton).toMatchSnapshot();
 });
 
 test('It renders Styled Checkout Button ', () => {
-  const CheckoutButton = mount(<StyledCheckoutButton />);
+  const CheckoutButton = mount(<StyledPaddedButton />);
   expect(CheckoutButton).toMatchSnapshot();
 });
 
@@ -29,7 +29,7 @@ test('Styled Standard button have the correct styles', () => {
 });
 
 test('Styled Count button have the correct styles', () => {
-  const CountButton = mount(<StyledCountButton />);
+  const CountButton = mount(<StyledButton />);
   expect(CountButton).toHaveStyleRule('font-size', '20px');
   expect(CountButton).toHaveStyleRule('line-height', '25px');
   expect(CountButton).toHaveStyleRule('padding', '0 8px');
@@ -42,7 +42,7 @@ test('Styled Count button have the correct styles', () => {
 });
 
 test('Styled Checkout button have the correct styles', () => {
-  const CheckoutButton = mount(<StyledCheckoutButton />);
+  const CheckoutButton = mount(<StyledPaddedButton />);
   expect(CheckoutButton).toHaveStyleRule('margin-top', '24px');
   expect(CheckoutButton).toHaveStyleRule('padding-top', '16px');
   expect(CheckoutButton).toHaveStyleRule('padding-bottom', '16px');
