@@ -1,4 +1,6 @@
 {
+  "include": ["src/**/*", "styled"],
+  "exclude": ["node_modules", "build", "scripts"],
   "compilerOptions": {
     "outDir": "build/lib",
     "module": "commonjs",
@@ -22,7 +24,5 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "types": ["react", "jest"]
-  },
-  "include": ["components/**/*", "styled"],
-  "exclude": ["node_modules", "build", "scripts"]
+  } 
 }
