@@ -1,7 +1,7 @@
 import  *  as React from 'react';
-import { StyledBar } from '@bit/a13marquez.styled-components.styled-bar'
+import { StyledBar } from '@bit/a13marquez.styled-components.styled-bar';
 import { StyledBurguerIcon } 
-  from '@bit/a13marquez.styled-components.styled-burguer-icon'
+  from '@bit/a13marquez.styled-components.styled-burguer-icon';
 
 interface BurguerButtonProps {
   height?: string;
