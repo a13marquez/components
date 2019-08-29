@@ -9,6 +9,8 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@bit/a13marquez.styled-components.styled-bar": "^1.0.0",
+    "@bit/a13marquez.styled-components.styled-burguer-icon": "^1.0.0",
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-info": "^5.1.11",
     "@storybook/addon-links": "^5.1.11",
@@ -35,11 +37,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "storybook-styled-components": "^1.1.4",
-    "styled-components": "^4.3.0"
+    "styled-components": "^4.3.0",
+    "typescript": "^3.6.2"
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react-typescript@3.0.6"
+      "compiler": "bit.envs/compilers/react-typescript@3.0.9"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
