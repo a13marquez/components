@@ -6,7 +6,7 @@ interface StyledResponsiveMenuProps {
   readonly backgroundColor?: string;
 }
 
-export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
+const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
   .burguer__icon {
     display:none; 
   }
@@ -18,12 +18,14 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
     justify-content: space-evenly;
     margin-right: 2rem;
   }
+
   li {
     margin: 0 1rem;
     text-decoration: none;
     opacity: .6;
     padding: 1rem 2rem;
   }
+
   li a {
     color: ${props => props.color || 'white' };
     font-size: 2.2rem;
@@ -33,24 +35,30 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
   li:first-of-type {
     margin-left: 0;
   }
+
   li:last-child {
     margin-right: 0;
   }
+
   li:hover {
     opacity: 1;
   }
+
   @media (min-width:  28.75em) {
     background-color: ${
-      props => props.backgroundColor || 'rgb(0, 0, 0, .7)'}; 
+    props => props.backgroundColor || 'rgb(0, 0, 0, .7)'}; 
   }
+
   @media (max-width:  28.75em) {
     height: 100%;
     z-index:0;
+    
     .burguer__icon {
       display:inline;
       z-index: 10;
     }
-    .rm__list{
+
+    .rm__list {
       height:100vh;
       display: inline-block;
       MozTransform: translate3d(-100%, 0, 0);
@@ -81,31 +89,36 @@ export const StyledResponsiveMenu = styled.nav<StyledResponsiveMenuProps>`
         WebkitTransform: translate3d(-10%, 0, 0);
         transform: translate3d(-10%, 0, 0);  
       }
-    }
-    ul {
-      height: 100vh;
-      display: flex
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-    li {
-      width:100vw;
-      height: 5em;
-      display: flex
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      margin: 6px 0;
-      cursor: pointer;
-    }
+      ul {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      li {
+        width:100vw;
+        height: 5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 6px 0;
+        cursor: pointer;
+      }
   
-    li:first-of-type {
-      margin-top: 6px;
-    }
-    li:last-child {
-      margin-bottom: 6px;
-    }
+      li:first-of-type {
+        margin-top: 6px;
+      }
 
-  }`
+      li:last-child {
+        margin-bottom: 6px;
+      }
+
+    }
+  }
+`;
+
+  export default StyledResponsiveMenu
 

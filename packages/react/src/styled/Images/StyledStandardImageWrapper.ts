@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import  shared from '../shared-styles';
 
-export const StyledStandardImageWrapper = styled.figure`
-  ${StandardStyles}
-`
+const StyledStandardImageWrapper = styled.figure`
+  ${shared.StandardStyles}
+`;
+
+export default StyledStandardImageWrapper

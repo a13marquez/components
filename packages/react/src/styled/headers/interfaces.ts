@@ -1,4 +1,4 @@
-export interface StandardHProps {
+export default interface StandardHProps {
   backgroundColor?: string;
-  color: string;
+  color?: string;
 }

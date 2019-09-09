@@ -14,7 +14,7 @@ interface StyledCircularRevealProps {
 const defaultTransformTransition = 'transform 0.2s cubic-bezier(0, 0, 0.3, 1)';
 const defaultOpacityTransition = 'opacity 0.2s cubic-bezier(0, 0, 0.3, 1)'
 
-export const StyledCircularReveal = styled.div<StyledCircularRevealProps>`
+const StyledCircularReveal = styled.div<StyledCircularRevealProps>`
   width: ${props => props.width || '100px'};
   height: ${props => props.height || '100px'};
   border-radius: 50%;
@@ -48,4 +48,6 @@ export const StyledCircularReveal = styled.div<StyledCircularRevealProps>`
   img {
     width:100%;
   }`;
+
+  export default StyledCircularReveal;
 

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledStandardParagraph = styled.p`
-  ${StandardStyles}
-`
+const StyledStandardParagraph = styled.p`
+  ${shared.StandardStyles}
+`;
+
+export default StyledStandardParagraph

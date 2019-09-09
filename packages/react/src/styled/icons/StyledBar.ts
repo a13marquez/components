@@ -9,7 +9,7 @@ interface StyledBarProps {
   readonly opacity?: string;
 }
 
-export const StyledBar = styled.div<StyledBarProps>`
+const StyledBar = styled.div<StyledBarProps>`
   width: ${props => props.width || '35px'};
   height:${ props => props.height || '5px'};
   background-color: ${props => props.backgroundColor || 'rgba(51,51,51, .6)'};
@@ -17,3 +17,5 @@ export const StyledBar = styled.div<StyledBarProps>`
   transition: ${props => props.transition || '0.4s'};
   opacity:  ${props => props.opacity || '6'};
 `;
+
+export default StyledBar

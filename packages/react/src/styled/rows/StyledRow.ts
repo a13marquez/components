@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledRow = styled.li`
-  ${StandardStyles}
+const StyledRow = styled.li`
+  ${shared.StandardStyles}
   font-size: 14px;
   line-height: 17px;
   display: flex;
@@ -13,4 +13,6 @@ export const StyledRow = styled.li`
   + li {
     margin-top: 20px;
   }
-`
+`;
+
+export default StyledRow;

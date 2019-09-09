@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledStandardAside } from './StyledStandardAside';
+import StyledStandardAside from './StyledStandardAside';
 
 interface StyledColumnAsideProps {
   readonly padding?: string;
@@ -8,7 +8,7 @@ interface StyledColumnAsideProps {
   readonly color?: string;
 }
 
-export const StyledColumnAside = 
+const StyledColumnAside = 
 styled(StyledStandardAside)<StyledColumnAsideProps>`
   display: flex;
   flex-flow: column wrap;
@@ -19,4 +19,6 @@ styled(StyledStandardAside)<StyledColumnAsideProps>`
   > * {
     width: 100%;
   }
-`
+`;
+
+export default StyledColumnAside;

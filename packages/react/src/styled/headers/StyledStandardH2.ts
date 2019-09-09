@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { StandardHProps } from './interfaces';
-import { StandardStyles } from '../shared-styles';
+import StandardHProps from './interfaces';
+import shared from '../shared-styles';
 
 export const StyledStandardH2 = styled.h2<StandardHProps>`
-  ${StandardStyles}
+  ${shared.StandardStyles}
   color: ${props => props.color || '#717285'};
   background-color: ${props => props.backgroundColor || '#fff'};
   letter-spacing: 0;
@@ -14,4 +14,6 @@ export const StyledStandardH2 = styled.h2<StandardHProps>`
   + * {
     margin-top: 16px;
   }
-`
+`;
+
+export default StyledStandardH2;

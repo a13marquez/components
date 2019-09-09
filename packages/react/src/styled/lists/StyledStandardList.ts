@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledStandardList = styled.ul`
-  ${StandardStyles}
+const StyledStandardList = styled.ul`
+  ${shared.StandardStyles}
   list-style: none;
-`
+`;
+
+export default StyledStandardList;

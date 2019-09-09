@@ -1,5 +1,5 @@
 import * as React from 'react';
-import StyledHeader from '../../styled/headers/StyledHeader';
+import StyledHeader from '@bit/a13marquez.styled-components.styled-header';
 
 interface HeaderProps {
   readonly backgroundColor?: string;

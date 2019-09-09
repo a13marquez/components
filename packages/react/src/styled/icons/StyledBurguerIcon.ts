@@ -9,7 +9,7 @@ interface StyledBurguerProps {
 
 }
 
-export const StyledBurguerIcon = styled.div<StyledBurguerProps>`
+const StyledBurguerIcon = styled.div<StyledBurguerProps>`
   cursor: pointer;
   margin: 6px 0;
   transition: ${props => props.transition || '0.4s'};
@@ -34,3 +34,5 @@ export const StyledBurguerIcon = styled.div<StyledBurguerProps>`
     }
   }
 `;
+
+export default StyledBurguerIcon;

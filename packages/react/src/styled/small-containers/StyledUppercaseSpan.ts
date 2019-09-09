@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { StyledStandardSpan } from './StyledStandardSpan';
+import StyledStandardSpan  from './StyledStandardSpan';
 
-export const StyledUppercaseSpan = styled(StyledStandardSpan)`
+const StyledUppercaseSpan = styled(StyledStandardSpan)`
   flex-basis: 100%;
   text-transform: uppercase;
-`
+`;
+
+export default StyledUppercaseSpan;

@@ -1,8 +1,10 @@
 import styled from 'styled-components';
-import { StyledStandardList } from './StyledStandardList'
-import { BigVerticalPaddingStyles, BorderBottomStyles } from '../shared-styles';
+import StyledStandardList  from './StyledStandardList'
+import shared  from '../shared-styles';
 
-export const StyledPaddedList = styled(StyledStandardList)`
-  ${BigVerticalPaddingStyles}
-  ${BorderBottomStyles}
-`
+const StyledPaddedList = styled(StyledStandardList)`
+  ${shared.BigVerticalPaddingStyles}
+  ${shared.BorderBottomStyles}
+`;
+
+export default StyledPaddedList;

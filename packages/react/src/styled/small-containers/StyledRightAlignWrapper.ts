@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
 
-export const StyledRightAlignWrapper = styled.div`
-  ${StandardStyles}
+const StyledRightAlignWrapper = styled.div`
+  ${shared.StandardStyles}
   align-self: flex-end;
   margin-top: auto;
   padding-top: 16px;
@@ -11,3 +11,5 @@ export const StyledRightAlignWrapper = styled.div`
   border-top: 1px solid rgba(33, 34, 64, 0.16);
   color: #212240;
 `;
+
+export default StyledRightAlignWrapper;

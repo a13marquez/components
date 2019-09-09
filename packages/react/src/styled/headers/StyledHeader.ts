@@ -8,8 +8,8 @@ interface StyledHeaderProps {
   readonly justifyContent?: string;
   readonly boxShadow?: string;
 }
-
-export const StyledHeader = styled.header<StyledHeaderProps>`
+ 
+const StyledHeader = styled.header<StyledHeaderProps>`
   display: flex;
   align-items: ${props => props.alignItems || 'flex-end'};
   justify-content:  ${props => props.justifyContent || 'space-around'};;

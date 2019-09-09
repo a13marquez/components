@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { StyledStandardList } from './StyledStandardList'
-import { BorderBottomStyles } from '../shared-styles';
+import StyledStandardList  from './StyledStandardList'
+import shared  from '../shared-styles';
 
-export const StyledBorderedList = styled(StyledStandardList)`
-  ${BorderBottomStyles}
-`
+const StyledBorderedList = styled(StyledStandardList)`
+  ${shared.BorderBottomStyles}
+`;
+
+export default StyledBorderedList;

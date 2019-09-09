@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import { StyledStandardMain } from './StyledStandardMain';
+import StyledStandardMain from './StyledStandardMain';
 
 interface StyledCenteredMainProps {
   backgroundColor?: string;
 }
 
-export const StyledCenteredMain = 
+const StyledCenteredMain = 
   styled(StyledStandardMain)<StyledCenteredMainProps>`
   display: flex;
   position: fixed;
@@ -19,4 +19,7 @@ export const StyledCenteredMain =
   height: calc(100% - 64px);
   border-radius: 4px;
   background-color: ${props => props.backgroundColor || '#fff'};
-`
+  transform: translate(-50%, -50%);
+`;
+
+export default StyledCenteredMain;

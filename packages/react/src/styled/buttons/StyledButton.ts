@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { StyledStandardButton } from './StyledStandardButton';
+import StyledStandardButton from './StyledStandardButton';
 
-export const StyledButton = styled(StyledStandardButton)`
+const StyledButton = styled(StyledStandardButton)`
   padding: 0 8px;
   height: 40px;
   border: none;
@@ -9,4 +9,6 @@ export const StyledButton = styled(StyledStandardButton)`
   color: #7350ff;
   font-weight: bold;
   cursor: pointer;
-`
+`;
+
+export default StyledButton

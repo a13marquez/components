@@ -1,8 +1,8 @@
 import  styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
 export const StyledStandardRow = styled.li`
-  ${StandardStyles}
+  ${shared.StandardStyles}
   position: relative;
   display: flex;
   flex-flow: row nowrap;
@@ -10,4 +10,6 @@ export const StyledStandardRow = styled.li`
   + li {
     margin-top: 32px;
   }
-`
+`;
+
+export default StyledStandardRow;

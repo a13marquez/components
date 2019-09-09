@@ -28,8 +28,14 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@bit/a13marquez.styled-components.styled-bar": "^1.0.3",
-    "@bit/a13marquez.styled-components.styled-burguer-icon": "^1.0.3",
+    "@bit/a13marquez.react-components.burguer-button": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-bar": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-burguer-icon": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-centered-main": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-circular-reveal": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-header": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-responsive-menu": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-round-img": "^1.2.0",
     "@types/react": "^16.9.2",
     "@types/styled-components": "^4.1.18",
     "jest-styled-components": "^6.3.3",
@@ -42,221 +48,9 @@
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react-typescript@3.0.9"
+      "compiler": "bit.envs/compilers/react-typescript@3.0.16"
     },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm",
-    "overrides": {
-      "a13marquez.react-components/burguer-button": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.react-components/circular-reveal": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.react-components/header": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.react-components/round-image": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/shared-styles": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/style-padded-section": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-bar": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-bold-span": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-bordered-header": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-bordered-img": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-bordered-list": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-burguer-icon": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-button": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-centered-image-wrapper": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-centered-main": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-circular-reveal": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-column-aside": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-half-border-wrapper": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-header": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-list": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-padded-button": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-padded-list": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-quantity-input": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-responsive-menu": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-right-align-wrapper": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-round-img": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-row": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-small-text-paragraph": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-aside": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-button": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-column": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-h1": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-image-wrapper": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-input": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-list": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-main": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-paragraph": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-row": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-section": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-standard-span": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-title-row": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      },
-      "a13marquez.styled-components/styled-uppercase-span": {
-        "env": {
-          "compiler": "bit.envs/compilers/react-typescript@3.0.9"
-        }
-      }
-    }
+    "componentsDefaultDirectory": "src/",
+    "packageManager": "npm"
   }
 }

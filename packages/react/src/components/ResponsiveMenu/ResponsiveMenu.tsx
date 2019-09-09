@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { StyledResponsiveMenu } from '../../styled/menu/StyledResponsiveMenu';
-import { BurguerButton } from '../BurguerButton';
+import StyledResponsiveMenu  
+  from '@bit/a13marquez.styled-components.styled-responsive-menu';
+import { BurguerButton } from '@bit/a13marquez.react-components.burguer-button';
 
 interface MenuItem {
   readonly id: string;

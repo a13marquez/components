@@ -1,9 +1,10 @@
 import styled from 'styled-components';
-import { BorderBottomStyles } from '../shared-styles';
-import { StandardStyles, MidVerticalPaddingStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledHalfBorderWrapper = styled.div`
-  ${StandardStyles}
-  ${MidVerticalPaddingStyles}
-  ${BorderBottomStyles}
-`
+const StyledHalfBorderWrapper = styled.div`
+  ${shared.StandardStyles}
+  ${shared.MidVerticalPaddingStyles}
+  ${shared.BorderBottomStyles}
+`;
+
+export default StyledHalfBorderWrapper;

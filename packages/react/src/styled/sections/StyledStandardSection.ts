@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledStandardSection = styled.section`
-  ${StandardStyles}
-`
+const StyledStandardSection = styled.section`
+  ${shared.StandardStyles}
+`;
+
+export default StyledStandardSection;

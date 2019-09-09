@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledStandardH1 } from './StyledStandardH1';
+import StyledStandardH1  from './StyledStandardH1';
 
 interface StyledBorderedHeaderProps {
   readonly borderTop?: string;
@@ -8,7 +8,7 @@ interface StyledBorderedHeaderProps {
   readonly borderLeft?: string;
 }
 
-export const StyledBorderedHeader = 
+const StyledBorderedHeader = 
   styled(StyledStandardH1)<StyledBorderedHeaderProps>`
   padding-bottom: 16px;
   border-top: ${props => 
@@ -19,4 +19,6 @@ export const StyledBorderedHeader =
     props.borderBottom || '1px solid rgba(33, 34, 64, 0.16)'};
   border-left: ${props => 
     props.borderLeft || '1px solid rgba(33, 34, 64, 0.16)'};
-`
+`;
+
+export default StyledBorderedHeader;

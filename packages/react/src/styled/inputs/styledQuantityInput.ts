@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { StyledStandardInput } from './StyledStandardInput';
+import StyledStandardInput from './StyledStandardInput';
 
-export const StyledQuantityInput = styled(StyledStandardInput)`
+const StyledQuantityInput = styled(StyledStandardInput)`
   width: 40px;
   height: 40px;
   border: 2px solid #dbdbe0;
@@ -17,4 +17,6 @@ export const StyledQuantityInput = styled(StyledStandardInput)`
   [type=number] {
     -moz-appearance:textfield;
   }
-`
+`;
+ 
+export default StyledQuantityInput;

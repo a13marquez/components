@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { StyledCircularReveal } from '../../styled/Images/StyledCircularReveal';
+import StyledCircularReveal 
+  from '@bit/a13marquez.styled-components.styled-circular-reveal'
 
 interface CircularRevealProps {
   readonly easing?: number

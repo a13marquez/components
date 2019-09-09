@@ -1,3 +1,10 @@
-export * from './StandardStyles';
-export * from './BorderBottomStyles';
-export * from './WrapperStyles';
+import StandardStyles  from './StandardStyles';
+import BorderBottomStyles from './BorderBottomStyles';
+import { BigVerticalPaddingStyles, MidVerticalPaddingStyles } from './WrapperStyles';
+
+export default {
+  StandardStyles,
+  BorderBottomStyles,
+  BigVerticalPaddingStyles,
+  MidVerticalPaddingStyles,
+}

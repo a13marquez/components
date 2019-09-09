@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import { StandardStyles } from '../shared-styles';
+import shared from '../shared-styles';
 
-export const StyledStandardMain = styled.main`
-  ${StandardStyles}
-`
+const StyledStandardMain = styled.main`
+  ${shared.StandardStyles}
+`;
+
+export default StyledStandardMain;

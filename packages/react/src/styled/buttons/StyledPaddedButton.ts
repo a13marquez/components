@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { StyledStandardButton } from './StyledStandardButton';
+import StyledStandardButton from './StyledStandardButton';
 
-export const StyledPaddedButton = styled(StyledStandardButton)`
+const StyledPaddedButton = styled(StyledStandardButton)`
   margin-top: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -13,4 +13,6 @@ export const StyledPaddedButton = styled(StyledStandardButton)`
   font-weight: bold;
   line-height: 14px;
   cursor: pointer;
-`
+`;
+
+export default StyledPaddedButton;
