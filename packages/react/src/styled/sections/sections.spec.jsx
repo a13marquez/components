@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardSection } from './StyledStandardSection';
-import { StyledSectionWithPadding } from './StylePaddedSection';
+import StyledStandardSection from './StyledStandardSection';
+import StyledSectionWithPadding from './StyledPaddedSection';
 
 test('It renders Styled Standard Section', () => {
   const StandardSection = mount(<StyledStandardSection />);

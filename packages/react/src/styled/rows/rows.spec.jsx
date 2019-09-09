@@ -2,9 +2,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardRow } from './StyledStandardRow';
-import { StyledTitleRow } from './StyledTitleRow';
-import { StyledRow } from './StyledRow';
+import StyledStandardRow from './StyledStandardRow';
+import StyledTitleRow from './StyledTitleRow';
+import StyledRow from './StyledRow';
 
 
 test('It renders Styled Standard Row', () => {

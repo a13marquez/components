@@ -2,9 +2,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardList } from './StyledStandardList';
-import { StyledList } from './StyledList';
-import { StyledPaddedList } from './StyledPaddedList';
+import StyledStandardList from './StyledStandardList';
+import StyledList from './StyledList';
+import StyledPaddedList from './StyledPaddedList';
 
 
 test('It renders Styled Standard List', () => {

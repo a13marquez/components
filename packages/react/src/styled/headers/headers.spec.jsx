@@ -2,9 +2,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardH1 } from './StyledStandardH1';
-import { StyledStandardH2 } from './StyledStandardH2';
-import { StyledBorderedHeader } from './StyledBorderedHeader';
+import StyledStandardH1 from './StyledStandardH1';
+import StyledStandardH2 from './StyledStandardH2';
+import StyledBorderedHeader from './StyledBorderedHeader';
 
 test('It renders Styled Standard Big Header', () => {
   const StandardBigHeader = mount(<StyledStandardH1 />);

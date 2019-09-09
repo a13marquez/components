@@ -6,9 +6,9 @@ import { ResponsiveMenu } from './ResponsiveMenu';
 import { BurguerButton }  from '../BurguerButton';
 
 describe('Responsive Menu tests', () => {
-  it('Renders Responsive Menu' , () => {
+  test('Renders Responsive Menu' , () => {
     const wrapper = mount(<ResponsiveMenu />);
-    expect(wrapper.find(BurguerButton)).toHaveLength(1);
+    expect(wrapper.find('.bar1').length).toBeGreaterThanOrEqual(1);
     expect(wrapper.find('nav')).toHaveLength(1);
     expect(wrapper.find('ul')).toHaveLength(1);
   });

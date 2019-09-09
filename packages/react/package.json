@@ -34,6 +34,7 @@
     "@bit/a13marquez.styled-components.styled-centered-main": "^1.2.0",
     "@bit/a13marquez.styled-components.styled-circular-reveal": "^1.2.0",
     "@bit/a13marquez.styled-components.styled-header": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-padded-section": "^1.2.0",
     "@bit/a13marquez.styled-components.styled-responsive-menu": "^1.2.0",
     "@bit/a13marquez.styled-components.styled-round-img": "^1.2.0",
     "@types/react": "^16.9.2",

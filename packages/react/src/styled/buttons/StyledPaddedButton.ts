@@ -7,7 +7,7 @@ const StyledPaddedButton = styled(StyledStandardButton)`
   padding-bottom: 16px;
   width: 100%;
   border-radius: 4px;
-  background: #7350ff;
+  background: #000;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;

@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardInput } from './StyledStandardInput';
-import { StyledQuantityInput } from './styledQuantityInput';
+import StyledStandardInput from './StyledStandardInput';
+import StyledQuantityInput from './styledQuantityInput';
 
 
 test('It renders Styled Standard Input', () => {

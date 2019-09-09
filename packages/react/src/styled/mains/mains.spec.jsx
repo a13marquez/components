@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardMain } from './StyledStandardMain';
-import { StyledCenteredMain } from './StyledCenteredMain';
+import StyledStandardMain from './StyledStandardMain';
+import StyledCenteredMain from './StyledCenteredMain';
 
 test('It renders Styled Standard Main', () => {
   const StandardMain = mount(<StyledStandardMain />);

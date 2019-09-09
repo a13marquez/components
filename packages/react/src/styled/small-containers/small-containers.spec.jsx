@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardParagraph } from './StyledStandardParagraph';
-import { StyledStandardSpan } from './StyledStandardSpan';
+import StyledStandardParagraph from './StyledStandardParagraph';
+import StyledStandardSpan from './StyledStandardSpan';
 
 test('It renders Styled Standard Paragraph', () => {
   const StandardParagraph = mount(<StyledStandardParagraph />);

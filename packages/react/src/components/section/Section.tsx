@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { StyledSectionWithPadding } from '../../styled/sections';
+import StyledSectionWithPadding 
+  from '@bit/a13marquez.styled-components.styled-padded-section';
 
 export const Section: React.FunctionComponent =  (props) => (
   <StyledSectionWithPadding>

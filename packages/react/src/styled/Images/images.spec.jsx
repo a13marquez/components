@@ -2,9 +2,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardImageWrapper } from './StyledStandardImageWrapper';
-import { StyledCenteredImageWrapper } from './StyledCenteredImageWrapper';
-import { StyleBorderedImage } from './StyledBorderedImg';
+import StyledStandardImageWrapper from './StyledStandardImageWrapper';
+import StyledCenteredImageWrapper from './StyledCenteredImageWrapper';
+import StyleBorderedImage from './StyledBorderedImg';
 
 test('It renders Styled Standard Image Wrapper', () => {
   const StandardImageWrapper = mount(<StyledStandardImageWrapper />);

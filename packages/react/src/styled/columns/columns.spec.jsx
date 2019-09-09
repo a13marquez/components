@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import 'jest-styled-components';
 
-import { StyledStandardColumn } from './StyledStandardColumn';
+import StyledStandardColumn from './StyledStandardColumn';
 
 test('It renders Styled Standard Column', () => {
   const StandardColumn = mount(<StyledStandardColumn />);

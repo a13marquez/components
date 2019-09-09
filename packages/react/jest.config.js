@@ -9,6 +9,9 @@ module.exports = {
     '^.+\\.ts[x]?$': 'ts-jest',
     '^.+\\.js[x]?$': 'babel-jest'
   },
+  transformIgnorePatterns: [
+    'node_modules/(?!@bit/)',
+  ],
   testPathIgnorePatterns:[
     "/node_modules/", 
     "<rootDir>/src/*/.bit",  
@@ -17,5 +20,5 @@ module.exports = {
   collectCoverage: true,
   moduleNameMapper: {
     '^styled-components': '<rootDir>/node_modules/styled-components',
-  }
+  },
 };
