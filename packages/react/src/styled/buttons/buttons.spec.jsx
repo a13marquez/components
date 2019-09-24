@@ -4,7 +4,7 @@ import 'jest-styled-components';
 
 import StyledStandardButton from './StyledStandardButton';
 import StyledTransparentButton from './StyledTransparentButton';
-import StyledPaddedButton from './StyledPaddedButton';
+import StyledPaddedButton from './StyledButton';
 
 
 test('It renders Styled Standard Button ', () => {
@@ -49,7 +49,7 @@ test('Styled Checkout button have the correct styles', () => {
   expect(CheckoutButton).toHaveStyleRule('width', '100%');
   expect(CheckoutButton).toHaveStyleRule('border-radius', '4px');
   expect(CheckoutButton).toHaveStyleRule('background', '#000');
-  expect(CheckoutButton).toHaveStyleRule('color', '#ffffff');
+  expect(CheckoutButton).toHaveStyleRule('color', '#fff');
   expect(CheckoutButton).toHaveStyleRule('font-size', '16px');
   expect(CheckoutButton).toHaveStyleRule('font-weight', 'bold');
   expect(CheckoutButton).toHaveStyleRule('line-height', '14px');

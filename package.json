@@ -2,12 +2,24 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "babel-jest": "^24.8.0",
-    "lerna": "^3.14.1",
     "@babel/preset-env": "^7.4.5",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-info": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
     "@storybook/addon-viewport": "^5.1.8",
-    "@types/jest": "^24.0.13",
-    "jest": "^24.8.0",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "@types/jest": "^24.0.18",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.9.0",
+    "lerna": "^3.14.1",
+    "react-docgen-typescript-loader": "^3.2.1",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.5.3"
   },
   "scripts": {
@@ -17,5 +29,8 @@
     "lint": "eslint -c .eslintrc.json src",
     "lint:fix": "eslint -c .eslintrc.json src --fix",
     "publish": "npx lerna run publish"
+  },
+  "dependencies": {
+    "root": "file:packages/react"
   }
 }

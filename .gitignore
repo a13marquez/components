@@ -67,3 +67,10 @@ packages/**/**/dist/
 
 #bit folder
 .bit/
+
+#storybook
+**/storybook-static/
+
+
+#vscode
+.history

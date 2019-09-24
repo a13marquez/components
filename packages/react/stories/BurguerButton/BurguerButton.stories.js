@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { BurguerButton } from '../../components/BurguerButton';
+import BurguerButton from '../../src/components/BurguerButton';
 
 storiesOf('Burguer Button', module)
   .add('Default', () => (

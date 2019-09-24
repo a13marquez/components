@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { ResponsiveMenu } from '../../components/ResponsiveMenu/ResponsiveMenu';
+import ResponsiveMenu from '../../src/components/ResponsiveMenu/ResponsiveMenu';
 
 
 const items= [

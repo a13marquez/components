@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { CircularReveal } from '../../components/CircularReveal/CircularReveal';
+import CircularReveal from '../../src/components/CircularReveal/CircularReveal';
 import avatar from './avatar.jpeg'
 
 

@@ -9,11 +9,11 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.1.11",
-    "@storybook/addon-info": "^5.1.11",
-    "@storybook/addon-links": "^5.1.11",
-    "@storybook/addons": "^5.1.11",
-    "@storybook/react": "^5.1.11",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-info": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
     "@types/jest": "^24.0.18",
     "@types/storybook__react": "^4.0.2",
     "awesome-typescript-loader": "^5.2.1",
@@ -21,37 +21,30 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "jest": "^24.9.0",
-    "react-docgen-typescript-loader": "^3.1.1",
-    "ts-jest": "^24.0.2"
+    "react-docgen-typescript-loader": "^3.2.1",
+    "ts-jest": "^24.1.0"
   },
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
-    "@bit/a13marquez.react-components.burguer-button": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-bar": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-burguer-icon": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-centered-main": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-circular-reveal": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-header": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-padded-section": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-responsive-menu": "^1.2.0",
-    "@bit/a13marquez.styled-components.styled-round-img": "^1.2.0",
+    "@bit/a13marquez.styled-components.styled-centered-main": "^1.2.1",
     "@types/react": "^16.9.2",
-    "@types/styled-components": "^4.1.18",
+    "@types/styled-components": "^4.1.19",
     "jest-styled-components": "^6.3.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "storybook-styled-components": "^1.1.4",
-    "styled-components": "^4.3.2",
-    "typescript": "^3.6.2"
+    "styled-components": "^4.4.0",
+    "typescript": "^3.6.3",
+    "update": "^0.7.4"
   },
   "bit": {
     "env": {
       "compiler": "bit.envs/compilers/react-typescript@3.0.16"
     },
-    "componentsDefaultDirectory": "src/",
+    "componentsDefaultDirectory": "src//{name}",
     "packageManager": "npm"
   }
 }
