@@ -96,7 +96,7 @@
         "files": [
             {
                 "relativePath": "src/components/RoundImg/RoundImage.spec.jsx",
-                "test": false,
+                "test": true,
                 "name": "RoundImage.spec.jsx"
             },
             {
